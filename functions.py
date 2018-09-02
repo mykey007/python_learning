@@ -9,3 +9,13 @@ def say_hi(name, language, animal):
 print("***** First *****")
 say_hi("Rie", "Japanese", "Rat")
 print("***** Last *****")
+
+
+def cube_a_number(num):
+    return float(num) * float(num) * float(num)
+    print("asfas") # return is the end of the function, this will never print
+
+
+result = cube_a_number(4.2)
+
+print(result)
